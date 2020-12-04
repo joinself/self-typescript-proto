@@ -1,3 +1,5 @@
+// Copyright 2020 Self Group Ltd. All Rights Reserved.
+
 declare type MessageProcessor = (n: number) => any;
 export default class AuthenticationService {
     request(selfid: string, callback?: MessageProcessor, opts?: {
