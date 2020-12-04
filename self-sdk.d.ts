@@ -1,3 +1,5 @@
+// Copyright 2020 Self Group Ltd. All Rights Reserved.
+
 import AuthenticationService from './authentication-service';
 import FactsService from './facts-service';
 import IdentityService from './identity-service';
