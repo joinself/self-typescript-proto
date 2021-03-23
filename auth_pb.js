@@ -1,5 +1,3 @@
-// Copyright 2020 Self Group Ltd. All Rights Reserved.
-
 // source: auth.proto
 /**
  * @fileoverview
@@ -9,6 +7,8 @@
  * @public
  */
 // GENERATED CODE -- DO NOT EDIT!
+/* eslint-disable */
+// @ts-nocheck
 
 var jspb = require('google-protobuf');
 var goog = jspb;
@@ -128,7 +128,7 @@ proto.msgproto.Auth.deserializeBinaryFromReader = function(msg, reader) {
       msg.setDevice(value);
       break;
     case 5:
-      var value = /** @type {number} */ (reader.readUint64());
+      var value = /** @type {number} */ (reader.readInt64());
       msg.setOffset(value);
       break;
     default:
@@ -190,7 +190,7 @@ proto.msgproto.Auth.serializeBinaryToWriter = function(message, writer) {
   }
   f = message.getOffset();
   if (f !== 0) {
-    writer.writeUint64(
+    writer.writeInt64(
       5,
       f
     );
@@ -271,7 +271,7 @@ proto.msgproto.Auth.prototype.setDevice = function(value) {
 
 
 /**
- * optional uint64 offset = 5;
+ * optional int64 offset = 5;
  * @return {number}
  */
 proto.msgproto.Auth.prototype.getOffset = function() {

@@ -1,5 +1,3 @@
-// Copyright 2020 Self Group Ltd. All Rights Reserved.
-
 // source: errtype.proto
 /**
  * @fileoverview
@@ -9,6 +7,8 @@
  * @public
  */
 // GENERATED CODE -- DO NOT EDIT!
+/* eslint-disable */
+// @ts-nocheck
 
 var jspb = require('google-protobuf');
 var goog = jspb;
